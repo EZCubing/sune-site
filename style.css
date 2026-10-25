@@ -1,0 +1,13 @@
+:root { --ink: #0B0D12; --muted: #5B6273; --blue: #2CCEFF; --blue-text: #0A84B8; --card: #F4F5F7; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #FFFFFF; color: var(--ink); font: 17px/1.6 Inter, -apple-system, system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 56px 16px 80px; }
+h1, h2 { font-family: Poppins, -apple-system, system-ui, sans-serif; font-weight: 800; line-height: 1.2; }
+h1 { font-size: 44px; margin: 16px 0 8px; }
+h2 { font-size: 22px; margin: 36px 0 8px; }
+p, li { color: var(--ink); }
+.muted { color: var(--muted); }
+a { color: var(--blue-text); }
+.logo { width: 72px; height: 72px; border-radius: 18px; }
+.card { background: var(--card); border-radius: 18px; padding: 20px 22px; margin-top: 28px; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
